@@ -1,7 +1,23 @@
 ## 문제 해결
 
-- 프로젝트 실행 안 됨 (gem 설치에서 막힘)
+- 프로젝트 실행 안 됨(gem 설치에서 막힘)
   - https://jojoldu.tistory.com/288
+- Flipper 디버거 설치 안 됨
+  - 버전 호환성 문제로 인해, https://github.com/react-native-community/discussions-and-proposals/discussions/733 참고
+  - 신규 디버거(실험적)
+
+## 프로젝트 구조
+
+- src/assets: 이미지, 폰트 등
+- src/constants: 상수
+- src/pages: 페이지 단위 컴포넌트
+- src/components: 기타 컴포넌트
+- src/contexts: context api 모음
+- src/hooks: 커스텀 훅 모음
+- src/modules: 네이티브 모듈
+- src/store: 리덕스 스토어 세팅
+- src/slices: 리덕스 슬라이스
+- types: 타입 정의
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
